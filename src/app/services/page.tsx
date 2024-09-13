@@ -5,6 +5,11 @@ import Services2 from '../../assets/services/thay màn hình ip.png';
 import Services3 from '../../assets/services/thay mặt kính ip.png';
 import Services4 from '../../assets/services/thay pin ip.png';
 import Services5 from '../../assets/services/thay rung samsung.png';
+import { generateMetadata } from '@/utils/helper';
+import Link from 'next/link';
+
+export const metadata = generateMetadata('Dịch vụ', 'Hoàng Liên mobile nơi cung cấp các dịch vụ sửa chữa uy tín và chất lượng');
+
 interface ServiceItemProps {
   title: string;
   description: string;
@@ -38,41 +43,16 @@ const Services = () => {
     { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
   ];
   return (
-    <div className="flex">
-      {/* Filter Sidebar */}
-      <div className="w-1/4 p-4">
-        <div className="bg-white shadow-lg rounded-lg p-4">
-          <h3 className="text-lg font-semibold mb-4">Bộ lọc</h3>
-          <div className="mb-4">
-            <label htmlFor="brand" className="block text-sm font-medium">Chọn hãng</label>
-            <select id="brand" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-              <option>Chọn hãng</option>
-              <option>Apple</option>
-              <option>Samsung</option>
-            </select>
-          </div>
-          <div>
-            <label htmlFor="model" className="block text-sm font-medium">Chọn dòng máy</label>
-            <select id="model" className="mt-1 block w-full rounded-md border-gray-300 shadow-sm">
-              <option>Chọn dòng máy</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      {/* Services List */}
-      <div className="w-3/4 p-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {servicesData.map((service, index) => (
-          <ServiceItem
-            key={index}
-            title={service.title}
-            description={service.description}
-            price={service.price}
-            imageSrc={service.imageSrc}
-            warranty={service.warranty}
-            repairTime={service.repairTime}
-          />
-        ))}
-      </div>
+    <div className="flex w-full h-[200px] justify-center flex-col items-center">
+       <h1 className='text-orange-500 font-bold mt-10'>Cảm ơn quý khách! Trang này đang cập nhật bảo trì</h1>
+       <Link href="/">
+        <button
+          className="bg-orange-500 rounded text-white font-bold mt-3"
+          style={{ padding: "10px 20px", fontSize: "16px", cursor: "pointer" }}
+        >
+          Về Trang Chủ
+        </button>
+      </Link>
     </div>
   );
 };

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Home from './Home';
+import { generateMetadata } from '@/utils/helper';
 
 // Định nghĩa interface cho dữ liệu sản phẩm
 export interface Product {
@@ -43,6 +44,9 @@ export interface Product {
     no_sale: number;
   };
 }
+
+export const metadata = generateMetadata('Trang chủ', 'Hoàng Liên mobile nơi chất lượng tạo nên uy tín');
+
 
 async function fetchProducts(): Promise<Product[]> {
   try {

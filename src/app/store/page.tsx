@@ -4,6 +4,10 @@ import React from "react";
 import SubImage3 from "../../assets/images/Hoàng Liên Mobile store image 3.jpg";
 import SubImage4 from "../../assets/images/Hoàng Liên Mobile store image 4.jpg";
 import SubImage5 from "../../assets/images/Hoàng Liên Mobile store image 5.jpg";
+import { generateMetadata } from "@/utils/helper";
+
+export const metadata = generateMetadata('Cửa hàng', 'Hoàng Liên mobile nơi cung cấp các dịch vụ sửa chữa uy tín và chất lượng');
+
 const Store = () => {
   // Danh sách ảnh về cửa hàng
   const images = [SubImage4, SubImage5, SubImage3, SubImage4, SubImage5];

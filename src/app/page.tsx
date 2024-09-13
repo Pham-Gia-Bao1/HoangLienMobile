@@ -1,8 +1,10 @@
-// page.tsx (hoặc page.jsx nếu không sử dụng TypeScript)
-
 import React from 'react';
 import { Product } from './home/page';
 import Home from './home/Home';
+import { generateMetadata } from '@/utils/helper';
+
+// Generate metadata for the page
+export const metadata = generateMetadata('Trang chủ', 'Hoàng Liên mobile nơi chất lượng tạo nên uy tín');
 
 async function fetchProducts(): Promise<Product[]> {
   try {
