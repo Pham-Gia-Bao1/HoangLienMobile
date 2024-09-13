@@ -70,3 +70,14 @@
   -ms-overflow-style: none;  /* Internet Explorer and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+
+@media only screen and (max-width: 420px) {
+  .contact-info {
+    position: fixed;
+    top: 550px;
+    right: 50px;
+    z-index: 100;
+
+  }
+}
+

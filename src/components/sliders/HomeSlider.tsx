@@ -44,16 +44,14 @@ const HomeSlider: React.FC<HomeSliderProps> = ({ size, listImage, slideDuration 
   }, [currentSlide, slideDuration]);
 
   return (
-    <div className="slideshow-container w-full">
+    <div className="slideshow-container w-full border border-orange-500">
       {listImage.map((slide, index) => (
         <div
           key={index}
           className={`mySlides fade ${index === currentSlide ? "active-slider" : ""}`}
           style={{ display: index === currentSlide ? "block" : "none" }}
         >
-          <div className="numbertext">
-            {index + 1} / {listImage.length}
-          </div>
+
           <Image
             src={slide.src}
             alt={`Slide ${index + 1}`}

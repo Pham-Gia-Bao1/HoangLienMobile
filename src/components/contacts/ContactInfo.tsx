@@ -30,11 +30,11 @@ export default function ContactInfo() {
 
       {/* Phone Icon */}
       <a
-        href="tel:+0999999809" // Replace with actual phone number
+        href="tel:+0799068978" // Replace with actual phone number
         className="flex items-center space-x-4 p-3 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition duration-300 ease-in-out cursor-pointer"
       >
         <Image width={50} height={50} src={IconPhone.src} alt="Icon phone" />
-        <p className="text-lg font-semibold">0999 999 809</p>
+        <p className="text-lg font-semibold">0799068978</p>
       </a>
     </div>
   );

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div className="footer-section">
           <h3 className="text-lg font-semibold mb-4 text-orange-500">Thông Tin Cửa Hàng</h3>
           <p className="text-gray-400">Địa chỉ: Thôn 1 Thanh Sen - Phúc Trạch - Bố Trạch - Quảng Bình</p>
-          <p className="text-gray-400">Điện thoại: (123) 456-7890</p>
+          <p className="text-gray-400">Điện thoại: 0799068978 </p>
           <p className="text-gray-400">Email: lienhoang@gmail.com</p>
           <Image src={Logo} alt='Hoàng Liên mobile logo' width={150} height={150}/>
         </div>

@@ -3,7 +3,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["dn.fastcare.vn","cdn.fastcare.vn"], // Allowing images from dn.fastcare.vn
+    domains: ["dn.fastcare.vn","cdn.fastcare.vn",'via.placeholder.com'], // Allowing images from dn.fastcare.vn
   },
   env: {
     API_URL: process.env.NEXT_PUBLIC_API_URL, // Access the environment variables
