@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from "next/navigation"; // Import useRouter to navigate
-import notFoundImage from "../assets/images/notFOundImage.png"; // Thay đổi đường dẫn hình ảnh cho đúng
+import notFoundImage from "../assets/images/notFoundImage.png"; // Thay đổi đường dẫn hình ảnh cho đúng
 import { generateMetadata } from "@/utils/helper";
 import Image from "next/image";
 import Link from "next/link";
