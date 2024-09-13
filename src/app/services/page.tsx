@@ -31,11 +31,6 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ title, description, price, im
 );
 const Services = () => {
   const servicesData = [
-    { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
-    { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
-    { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
-    { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
-    { title: 'Thay rung Samsung S22 Plus', description: 'Thay rung Samsung S22 Plus', price: '300.000đ', imageSrc: Services5.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
     { title: 'Thay pin iPhone 11', description: 'Thay pin iPhone 16', price: 'Liên hệ', imageSrc: Services1.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },
     { title: 'Thay mặt kính iPhone 11', description: 'Thay mặt kính iPhone 16', price: 'Liên hệ', imageSrc: Services2.src, warranty: 'BH: Rơi Vỡ', repairTime: 'Sửa: 45 Phút' },
     { title: 'Thay màn hình iPhone 11', description: 'Thay màn hình iPhone 16', price: 'Liên hệ', imageSrc: Services3.src, warranty: 'BH: 12 Tháng', repairTime: 'Sửa: 15 Phút' },

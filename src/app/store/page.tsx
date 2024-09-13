@@ -47,7 +47,7 @@ const Store = () => {
       <h3 className="text-2xl font-bold text-center text-blue-600 mb-4">
         Dịch Vụ Chúng Tôi Cung Cấp:
       </h3>
-      <div className=" flex justify-center">
+      <div className=" flex justify-center flex-wrap">
         <p className="text-black bg-orange-200 p-2 m-2">Sửa chữa màn hình</p>
         <p className="text-black bg-orange-200 p-2 m-2">Thay pin</p>
         <p className="text-black bg-orange-200 p-2 m-2">
